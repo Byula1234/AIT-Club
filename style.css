@@ -1,0 +1,619 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header starts */
+.ait-club {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-links li {
+    margin-left: 60px;
+    list-style: none;
+    color: white;
+}
+
+.ait-club h2 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.page {
+    border: none;
+    margin-left: 60px;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+}
+
+.ait-club .nav-links .home {
+    color: #da610a;
+}
+
+/* header ends */
+
+/* banner starts */
+.banner {
+    text-align: center;
+    position: relative;
+    top: 230px;
+    color: white;
+}
+
+.banner h2 {
+    font-size: 30px;
+    color: #da610a;
+
+}
+
+.banner h1 {
+    font-size: 9rem;
+
+}
+
+.banner h4 {
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.main-head {
+    background-image: url(./assets/carousel-1.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+/* banner ends */
+
+
+/* Training part starts*/
+.Training-part {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 80px;
+}
+
+.Training-part h4 {
+    font-size: 33px;
+    font-weight: 200;
+}
+
+.Training-part h2 {
+    font-size: 58px;
+    font-weight: 100;
+}
+
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 100px;
+
+}
+
+.about-container img {
+    width: 400px;
+    height: 360px;
+}
+
+/* .about-container, .content1 h3{
+    font-size: 35px;
+} */
+
+.about-container button {
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    margin-top: 30px;
+}
+
+.about-container button:hover {
+    background-color: #da610a;
+}
+
+.content1 {
+    margin-top: 20px;
+}
+
+.content1 h3 {
+    font-size: 2.5rem;
+}
+
+.content1 .para-1 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.content1 .para-2 {
+    margin-top: 10px;
+    color: gray;
+}
+
+.content2 img {
+    height: 566px;
+    width: 500px;
+    position: relative;
+    right: 40px;
+}
+
+.content3 h2 {
+    font-size: 2.5rem;
+}
+
+.content3 p {
+    margin-top: 15px;
+    color: gray;
+}
+
+.content3 h4 {
+    font-size: 25px;
+    font-size: 25px;
+    font-size: 25px;
+}
+
+.content3 button:hover {
+    background-color: #da610a;
+    color: black;
+}
+
+#vision li,
+#vision i{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+#vision{
+    margin-top: 10px;
+}
+
+
+/* Training part ends*/
+
+
+/* Services starts */
+.about-services {
+    margin-top: 155px;
+    /* position: relative; */
+}
+
+.about-services h3 {
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.about-services h2 {
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-beans {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    row-gap: 30px;
+    margin-left: 190px;
+}
+
+.figure {
+    display: flex;
+    column-gap: 15px;
+}
+
+.about-beans img {
+    width: 200px;
+    height: 200px
+}
+
+.about-beans i {
+    font-size: 30px;
+    background-color: chocolate;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.content h4 {
+    position: relative;
+    bottom: 35px;
+    left: 65px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.content {
+    margin-top: 30px;
+    margin-left: 15px;
+    position: relative;
+}
+
+/* Services ends */
+
+/* menu pricing css */
+.menu {
+    position: relative;
+    top: 150px;
+    font-size: 80px;
+}
+
+.percentage {
+    text-align: center;
+    margin-top: 80px;
+    background-image: url(./assets/bg.jpg);
+    height: 650px;
+
+}
+
+.percentage h2 {
+    color: chocolate;
+    font-size: 90px;
+    font-weight: 800;
+    position: relative;
+    top: 50px;
+}
+
+.percentage h4 {
+    color: white;
+    font-size: 51px;
+    font-weight: 500;
+    position: relative;
+    top: 60px;
+    /* font-size: 500; */
+}
+
+.percentage p {
+    position: relative;
+    top: 90px;
+    color: white;
+    font-size: 40px;
+}
+
+.percentage input {
+    position: relative;
+    top: 130px;
+    height: 50px;
+    padding: 15px;
+    width: 250px;
+    border: none;
+}
+
+.percentage button {
+    position: relative;
+    top: 130px;
+    background-color: chocolate;
+    padding: 9px;
+    height: 50px;
+    width: 125px;
+    left: -23px;
+    border: none;
+}
+
+.percentage img {
+    width: 100%;
+    position: relative;
+}
+
+.percentage .img1 {
+    position: relative;
+    top: 0px;
+    height: 100px;
+}
+
+.percentage .img2 {
+    position: relative;
+    bottom: -143px;
+    height: 100px;
+}
+
+.menu h3 {
+    font-size: 43px;
+}
+
+/* menu pricing css ends */
+
+/* pricing page */
+.pricing {
+    position: relative;
+    top: 250px;
+    margin: 0 100px;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.pricing img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about-coffee {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.hotcoffee h3,
+.coldcoffee h3 {
+    font-size: 2.3rem;
+    font-weight: 100;
+}
+
+.about-coffee figure {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 35px;
+}
+
+.about-coffee figcaption {
+    margin-top: 35px;
+}
+
+.about-coffee figcaption dt {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* 
+
+
+/* Table form starts */
+.booking-main {
+    position: relative;
+    top: 400px;
+    background-image: url(./assets/bg.jpg);
+    margin: 0 100px;
+    height: 600px;
+    color: white;
+}
+
+.booking {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #080401bf;
+    height: 600px;
+
+}
+
+.booking-left {
+    position: absolute;
+    left: 50px;
+}
+
+.booking-left h2 {
+    font-size: 4.5rem;
+    color: #f79853;
+}
+
+.booking-left h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.booking-left p {
+    margin-top: 20px;
+}
+
+.booking-left p,
+li {
+    color: darkgrey;
+}
+
+.booking-left ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.booking-left ul i {
+    font-size: 25px;
+    color: #f79853;
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+}
+
+.booking-right {
+    position: absolute;
+    height: 600px;
+    width: 700px;
+    right: 0;
+    background-color: #4f2d14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-right h2 {
+    font-size: 2.5rem;
+}
+
+.booking-right input {
+    padding-left: 10px;
+    height: 50px;
+    width: 500px;
+    margin-top: 10px;
+    background: transparent;
+    border-color: #f79853;
+    border: 2px solid #f79853;
+    font-size: 18px;
+}
+
+#book-now-btn {
+    background-color: chocolate;
+    border: none;
+}
+
+/* Table form ends */
+
+/* Client section starts */
+.testimonial {
+    position: relative;
+    top: 500px;
+}
+
+.testimonial h4,
+.testimonial h2 {
+    text-align: center;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    margin-top: 10px;
+}
+
+.testimonial h4 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.testimonial h2 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-top: 33px;
+}
+
+.clients figure {
+    display: flex;
+}
+
+.clients figcaption h5 {
+    font-size: 22px;
+}
+
+.clients figcaption {
+    margin-top: 20px;
+    margin-left: 15px;
+    line-height: 35px;
+}
+
+.clients p {
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.clients figcaption p {
+    font-style: italic;
+}
+
+/* Client section ends */
+
+/* Footer starts */
+footer{
+    position: relative;
+    margin-top: 750px;
+    background-image: url(./assets/bg.jpg);
+    height: 350px;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #1f0e02ab;
+    height: 350px;
+}
+
+.footer-section h4 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.touch ul li{
+    margin-top: 10px;
+    color: white;
+    list-style: none;
+}
+
+.follow p{
+    color: white;
+    position: relative;
+    top: 15px;
+}
+
+.hours p{
+    color: white;
+    line-height: 20px;
+    position: relative;
+    top: 10px;
+    margin-top: 7px;
+}
+
+.sign p{
+    color: white;
+    position: relative;
+    bottom: 12px;
+    margin-top: 27px;
+}
+
+.sign input{
+    height: 40px;
+    width: 170px;
+    padding-left: 5px;
+    font-size: 1rem;
+    border: none;
+    position: relative;
+    top: 10px;
+}
+.sign button{
+    height: 40px;
+    width: 70px;
+    border: none;
+    position: relative;
+    top: 10px;
+    right: 4px;
+    background-color: chocolate;
+    font-size: 1rem;
+}
+/* .footer-section p {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+} */
+/* .footer-icons{
+    margin-top: 25px;
+} */
+.footer-icons i{
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+/* .follow{
+    position: relative;
+    bottom: 10px;
+} */
+/* .follow p{
+    position: relative;
+    top: 25px;
+} */
+
+/* Footer ends */
